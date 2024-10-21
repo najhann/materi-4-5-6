@@ -1,0 +1,30 @@
+LIST :
+            list berisi string 
+            fruits = ["apple", "banana", "cherry"]
+            Menambahkan elemen baru 
+            fruits.append("orange")
+            Print(fruits)
+            List sekarang menjadi ["apple", "banana", "cherry", "orange"]
+            Menghapus elemen tertentu
+            fruits.remove("banana") 
+            print(fruits)
+            List sekarang menjadi ["apple", "cherry", "orange"]
+            TUPLE :
+            tuple berisi string 
+            fruits = ("apple", "banana", "cherry")
+            Menghitung Panjang Tuple
+            length = len(fruits)
+            lalu jalankan
+            print(fruits and length)
+            maka Hasilnya 3
+            DICTIONARY :
+            person = {
+    "name": "najhan",
+    "age": 18,
+    "city": "Mataram"
+}
+              Menambahkan pasangan baru kunci-nilai
+              person["profession"] = “tentara”
+
+              Menghapus pasangan kunci-nilai
+              del person["city"]
